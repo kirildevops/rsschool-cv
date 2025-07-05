@@ -5,11 +5,11 @@
 <img src="./assets/ping.svg" alt="penguin_waving_its_hand" width="200"/>
 
 
-You can find me @kirildevops (GitHub :octocat:)
+You can find me [@kirildevops](https://github.com/kirildevops) <img src="./assets/github.svg" alt="GitHub_octocat" width="16"/>
 
-:telephone_receiver: +1234567890 is my Cell Phone Number (:phone:)
+📞 +1234567890 is my Cell Phone Number ☎
 
-:arrow_up: Also find me on Telegram, Viber, WhatsApp by this number :1234:
+⬆ Also find me on Telegram, Viber, WhatsApp by this number 🔢
 
 ## About Me
 
