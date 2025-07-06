@@ -9,7 +9,12 @@ You can find me [@kirildevops](https://github.com/kirildevops) <img src="./asset
 
 📞 +1234567890 is my Cell Phone Number ☎
 
-⬆ Also find me on Telegram, Viber, WhatsApp by this number 🔢
+⬆ Also find me by this number 🔢 on:
+
+- Telegram
+- Viber
+- WhatsApp
+
 
 ## About Me
 
@@ -21,7 +26,13 @@ I want to embrace front-end to discover effective ways to build web interfaces t
 
 ### Key Skills
 
-I am an experienced DevOps engineer. For the last decade I have been working with different application deployed to different public cloud and private server infrastructure. I help to support and maintain production applications written in Java, Javascript, Python, Go and deployed to Serverless, Kubernetes, VMs etc.
+I am an experienced DevOps engineer.
+
+I help to support and maintain production applications written in Java, Javascript, Python, Go running on Serverless, Kubernetes, VMs etc.
+
+I have writtem a lot of automation scripts, CI/CD pipelines 
+
+For the last decade I have been working with various applications deployed to well-known public cloud and private server infrastructure.
 
 ## Experience
 
@@ -31,7 +42,7 @@ Tried some Material for MkDocs and HTMX as well.
 
 ### Work Experience
 
-I did not work on a paid front-end position yet. However I was responsible for some Markdown, HTML, CSS, JS, PHP websites over the course of my 15+ career in Tech.
+I did not work on a paid front-end position yet. However I was responsible for some Markdown, HTML, CSS, JS, PHP websites over the course of my 10+ career in Tech.
 
 ### Relevant Education
 
@@ -43,13 +54,16 @@ I developed dozens of programs primarily in Python, Bash, little bit of Go
 
 ### Front-End Related
 
-HTML, CSS, JS, Typescript.
-
-Elements of React, Angular
+1. HTML, CSS,
+1. JS, Typescript.
+1. Elements of React, Angular
 
 ### Back-End Related
 
-SQL, Python, Bash scripting, YAML, JSON etc.
+1. SQL
+1. Python
+1. Bash scripting 
+1. YAML, JSON etc.
 
 ## Code Examples
 
