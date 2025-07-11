@@ -30,13 +30,13 @@ I am an experienced DevOps engineer.
 
 I help to support and maintain production applications written in Java, Javascript, Python, Go running on Serverless, Kubernetes, VMs etc.
 
-I have writtem a lot of automation scripts, CI/CD pipelines 
+I have writtem a lot of automation scripts, CI/CD pipelines
 
 For the last decade I have been working with various applications deployed to well-known public cloud and private server infrastructure.
 
 ## Experience
 
-I have decent exposure to HTML, CSS, JS, TypeScript and some familiarity with React, Angular, heard about Vue and Svelte. 
+I have decent exposure to HTML, CSS, JS, TypeScript and some familiarity with React, Angular, heard about Vue and Svelte.
 
 Tried some Material for MkDocs and HTMX as well.
 
@@ -62,7 +62,7 @@ I developed dozens of programs primarily in Python, Bash, little bit of Go
 
 1. SQL
 1. Python
-1. Bash scripting 
+1. Bash scripting
 1. YAML, JSON etc.
 
 ## Code Examples
@@ -75,9 +75,9 @@ https://www.codewars.com/kata/55fd2d567d94ac3bc9000064
 package kata
 
 func RowSumOddNumbers(n int) int {
-  
+
   oddNumbersToSkip := n * (n-1) / 2  // ((first + last) / 2 ) * count; first = 1; last = n - 1; count = n - 1;
-  
+
   firstInTheRow := 2 * (oddNumbersToSkip + 1) - 1  // 2 * x - 1 -- the formula for the first in the row element; x = skippedCount + 1
   sum := (firstInTheRow + n - 1) * n  // arithmetic progression. Again. first = ...; last = f + 2 * (n - 1); count = n
   // ((first + last) / 2) * count = ((f + f + 2 * (n - 1)) / 2 ) * n = (f + n - 1) * n
