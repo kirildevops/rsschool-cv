@@ -3,9 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/stackoverflow-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>Kiril Devops</title>
 </head>
 <body>
-    <h1>World!</h1>
+    <header class="flexc flex-container-header">
+        <figure class="flexc flex-container-logo">
+            <img src="assets/ping.svg" alt="waving-penguin" class="logo">
+            <figcaption class="logo-caption">LOGO</figcaption>
+        </figure>
+        <nav>
+            <ul class="flexc flex-container-nav-ul">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="wrapper">
+    <main>
+        <h1>Full Stack Engineer</h1>
+        <section class="container">
+            <h2>General</h2>
+            <div class="flexc flex-container-general">
+            <article id="about">
+                <h3>About</h3>
+                <p>I see myself as an educator and life-long learner.</p>
+
+                <h4>Aim and Priorities</h4>
+
+                <p>I want to embrace front-end to discover effective ways to build web interfaces that are engaging and bring value to my students</p>
+            </article>
+            <article id="contacts">
+                <h3>Contacts</h3>
+                <p><img src="./assets/ping.svg" alt="penguin_waving_its_hand" width="200">
+                    <br>
+                    You can find me <a href="https://github.com/kirildevops">@kirildevops</a>
+                    <img src="./assets/github.svg" alt="GitHub_octocat" width="16">
+                    <br>
+                    📞 +1234567890 is my Cell Phone Number ☎
+                    <br>
+                    ⬆ Also find me by this number 🔢 on:
+                    <ul>
+                        <li>Telegram</li>
+                        <li>Viber</li>
+                        <li>WhatsApp</li>
+                    </ul>
+        </article>
+            <article id="skills">
+                <h3>Skills</h3>
+                <p>I am an experienced DevOps engineer.</p>
+                <ol>
+                    <li>I help to support and maintain production applications written in Java, Javascript, Python, Go running on Serverless, Kubernetes, VMs etc.</li>
+                    <li>I have writtem a lot of automation scripts, CI/CD pipelines</li>
+                    <li>For the last decade I have been working with various applications deployed to well-known public cloud and private server infrastructure.</li>
+                </ol>
+            </article>
+            </div>
+        </section>
+        <section class="examples">
+            <h2>Examples</h2>
+            <article id="code">
+                <h3>Code</h3>
+                <h4>Go</h4>
+                <pre><code class="language-go">
+package kata
+
+func RowSumOddNumbers(n int) int {
+
+    oddNumbersToSkip := n * (n-1) / 2
+    // ((first + last) / 2 ) * count; first = 1;
+    // last = n - 1; count = n - 1;
+
+    firstInTheRow := 2 * (oddNumbersToSkip + 1) - 1
+    // 2 * x - 1 -- the formula for the first
+    // in the row element; x = skippedCount + 1
+    sum := (firstInTheRow + n - 1) * n
+    // arithmetic progression. Again.
+    // first = ...; last = f + 2 * (n - 1); count = n
+    // ((first + last) / 2) * count = ((f + f + 2 * (n - 1)) / 2 ) * n = (f + n - 1) * n
+    return sum
+}
+                </code></pre>
+                <h4>Python</h4>
+                <pre><code class="language-python">
+def is_prime(num):
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+
+for i in range(1, 20):
+    if is_prime(i + 1):
+        print(i + 1, end=" ")
+print()
+                </code></pre>
+            </article>
+        </section>
+        <section class="container">
+            <h2>Etc.</h2>
+            <div class="flexc flex-container-extra">
+            <article id="links">
+                <h3>Links</h3>
+                <p><a href="https://kirildevops.github.io/rsschool-cv/cv">https://kirildevops.github.io/rsschool-cv/cv</a></p>
+            </article>
+            <article id="education">
+                <h3>Education</h3>
+                    <h4>Online</h4>
+                    <p>CodeCademy, Boot.dev to name a few resources that I use on a daily basis to improve my Front-End and Back-End expertise</p>
+                    <h4>Classic</h4>
+                    <p>Applied Mathematics (KPI)</p>
+            </article>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <h3>Experience</h3>
+
+        I have decent exposure to HTML, CSS, JS, TypeScript and some familiarity with React, Angular, heard about Vue and Svelte.
+
+        Tried some Material for MkDocs and HTMX as well.
+
+        <h4>Work Experience</h4>
+        <p></p>
+        I did not work on a paid front-end position yet. However I was responsible for some Markdown, HTML, CSS, JS, PHP websites over the course of my 10+ career in Tech.
+
+        <h4>Past Projects</h4>
+        <p>Multiple <strong>Material for MkDocs</strong> (Markdown) educational resources</p>
+
+        <h3>Technical Skills</h3>
+
+        I developed dozens of programs primarily in Python, Bash, little bit of Go
+
+        <h4>Front-End Related</h4>
+        <ol>
+            <li>HTML, CSS,</li>
+            <li>JS, Typescript.</li>
+            <li>Elements of React, Angular</li>
+        </ol>
+        <h4>Back-End Related</h4>
+        <ul>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Bash scripting</li>
+            <li>YAML, JSON etc.</li>
+        </ul>
+
+        <h4>English</h4>
+        B2+
+    </aside>
+
+</div>
+    <footer>
+            <a href="https://rs.school/" target="_blank"><img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="rs school icon" height="100" width="100"></a>
+            <a href="https://github.com/kirildevops">@kirildevops</a>
+            <img src="./assets/github.svg" alt="GitHub_octocat" width="16">
+            &copy; Kiril Devops 2025
+    </footer>
 </body>
 </html>
